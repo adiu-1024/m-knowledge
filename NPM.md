@@ -24,9 +24,14 @@
   ```cmd
   npm i m-downloads --save  或  npm i -S m-downloads
   npm i nodemon --save-dev  或  npm i -D nodemon
-  npm i 模块名@latest -g   // 安装到最新版本
   ```
-  作用：前者用于安装项目运行所依赖的模块，后者用于安装项目开发所依赖的模块
+  前者用于安装项目运行所依赖的模块，后者用于安装项目开发所依赖的模块
+
+* 安装最新版本
+  ```cmd
+  npm i 模块名@latest -g
+  ```
+  说明：安装到最新版本
 
 * 移除依赖包
   ```cmd
